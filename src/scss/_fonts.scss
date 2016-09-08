@@ -1,0 +1,65 @@
+
+$sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$serif: serif;
+$mono: 'Courier New', monospace;
+
+// Icon Fonts
+// Here if ever needed
+
+
+// @font-face {
+//     font-family: 'icomoon';
+//     font-weight: normal;
+//     font-style: normal;
+
+//     src: url('../assets/fonts/icomoon-solis.eot');
+//     src: url('../assets/fonts/icomoon-solis.eot#iefix') format('embedded-opentype'),
+//     url('../assets/fonts/icomoon-solis.ttf') format('truetype'),
+//     url('../assets/fonts/icomoon-solis.woff') format('woff'),
+//     url('../assets/fonts/icomoon-solis.svg') format('svg');
+// }
+
+// [class^='icon-'],
+// [class*=' icon-'] {
+//     /* use !important to prevent issues with browser extensions that change fonts */
+//     font-family: 'icomoon' !important;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-variant: normal;
+//     line-height: 1;
+
+//     text-transform: none;
+
+//     speak: none;
+//     /* Better Font Rendering =========== */
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+
+// .icon-city:before {
+//     content: '\e901';
+// }
+// .icon-bell:before {
+//     content: '\e900';
+// }
+// .icon-golden:before {
+//     content: '\e904';
+// }
+// .icon-offline:before {
+//     content: '\e905';
+// }
+// .icon-widget:before {
+//     content: '\e906';
+// }
+// .icon-twitter:before {
+//     content: '\e902';
+// }
+
+// EXAMPLE
+//
+// @font-face {
+// font-family: 'Avenir Next LT Pro Condensed';
+// font-style: normal;
+// font-weight: normal;
+// src: local('Avenir Next LT Pro Condensed'), url('fonts/AvenirNextLTPro-Cn.woff') format('woff');
+// }
