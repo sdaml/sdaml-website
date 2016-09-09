@@ -1,0 +1,13 @@
+
+.member {
+    h3 {
+        margin: 1rem 0;
+
+        color: $text-dark;
+    }
+    h3:hover {
+        text-decoration: underline;
+
+        color: $accent-colour;
+    }
+}

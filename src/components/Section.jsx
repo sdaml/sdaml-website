@@ -15,7 +15,9 @@ class Section extends Component {
                         <h2 className="f2">
                             <span>{capitalize(this.props.title)}</span>
                         </h2>
-                        {this.props.children}
+                        <div className="section-child">
+                            {this.props.children}
+                        </div>
                     </div>
                 </div>
             </div>

@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 
 import FindUs from './FindUs.jsx';
 import Who from './Who.jsx';
-import Meet from './Meet.jsx';
+import MeetsSections from './meets/MeetsSections.jsx';
 import Members from './Members.jsx';
-
-import meets from '../js/data/meets.js';
 
 class Copy extends Component {
     constructor(props) {
@@ -19,9 +17,7 @@ class Copy extends Component {
                     <FindUs />
                     <Who />
 
-                    {meets.map(function(meet) {
-                        return <Meet key={meet.title} {...meet} />;
-                    })}
+                    <MeetsSections />
 
                     <Members />
                 </div>

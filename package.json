@@ -10,7 +10,6 @@
         "postbuild": "npm run copy",
         "copy": "cp -r public/* build",
         "clean": "rm -rf build",
-        "server": "node server/index.js",
         "deploy": "npm run build; surge build/ uvic-software.surge.sh"
     },
     "author": [
@@ -21,6 +20,7 @@
         "cors": "^2.7.1",
         "es6-promise": "^3.1.2",
         "express": "^4.13.4",
+        "moment": "^2.14.1",
         "react": "^0.14.8",
         "react-dom": "^0.14.8",
         "react-ga": "^1.4.1",

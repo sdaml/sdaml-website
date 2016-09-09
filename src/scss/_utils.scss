@@ -2,8 +2,20 @@
 
 // TYPOGRAPHY
 
+.ultra-light {
+    font-weight: $ultra-light;
+}
+
 .light {
-    font-weight: 300;
+    font-weight: $light;
+}
+
+.reg {
+    font-weight: $normal;
+}
+
+.bold {
+    font-weight: $bold;
 }
 
 .regular {
@@ -220,5 +232,5 @@
 
 @mixin text-underline-color($color) {
     -moz-text-decoration-color: $color; /* Code for Firefox */
-    text-decoration-color: $color;
+         text-decoration-color: $color;
 }
