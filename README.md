@@ -16,6 +16,8 @@ http://uvic-software.surge.sh
 - React app in `src/`
     + Entry is `index.jsx`
     + Components in `components/`
+    + JavaScript in `js/`
+    + Data in `js/data/`
     + Styles in `scss/`
     + Assets and icons in `assets/`
     + Images in `images/`
