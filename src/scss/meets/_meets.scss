@@ -2,6 +2,10 @@
 
 }
 
+.meet {
+    padding-bottom: 1rem;
+}
+
 .meet-title {
     margin-bottom: 0.5rem;
 }
@@ -11,5 +15,19 @@
 
     span {
         border-bottom: 0;
+    }
+}
+
+.meet-date,
+.meet-time-location {
+    color: $grey;
+    font-size: 16px;
+}
+
+// 1 Important to override gridlex no gutter styles
+.meet-info {
+    @include break(not-small) {
+        text-align: right;
+        padding-right: 4rem !important; // 1
     }
 }

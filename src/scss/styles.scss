@@ -64,10 +64,6 @@ p {
     line-height: 1.6;
 
     color: $text-dark;
-
-    @include break(not-small) {
-        color: $text-light;
-    }
 }
 
 a,
@@ -113,4 +109,12 @@ a.none:hover {
     min-height: 95vh;
     margin: 0;
     padding: 0;
+}
+
+.section {
+    margin: 1rem 0;
+
+    &:last-of-type {
+        margin-bottom: 1rem;
+    }
 }

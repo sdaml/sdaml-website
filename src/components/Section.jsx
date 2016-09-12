@@ -10,7 +10,7 @@ class Section extends Component {
     render() {
         return (
             <div className="section col-12">
-                <div className={['grid', toClass(this.props.title)].join(' ')}>
+                <div className={['grid-noGutter', toClass(this.props.title)].join(' ')}>
                     <div className="col-12">
                         <h2 className="f2">
                             <span>{capitalize(this.props.title)}</span>
