@@ -181,6 +181,10 @@
     @include border-radius($bradius);
 }
 
+.vert-align-middle {
+    vertical-align: middle;
+}
+
 .center-vertical {
     display: -ms-flexbox;
     display: -webkit-flex;

@@ -38,7 +38,7 @@ class FindUs extends Component {
                 {findUsLinks.map(function(findLink) {
                     return <div key={findLink.name} className="find-link">
                         <a href={findLink.href}>
-                            <img className="find-icon" srcSet={findLink.icon} />
+                            <img className="find-icon vert-align-middle" srcSet={findLink.icon} />
                             <span className="find-name bold">{findLink.name}</span>
                         </a>
                     </div>;

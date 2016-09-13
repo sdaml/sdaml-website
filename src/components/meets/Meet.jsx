@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Github from '../../assets/github.svg';
+
 class Meet extends Component {
     constructor(props) {
         super(props);
@@ -25,7 +27,10 @@ class Meet extends Component {
 
                     <p className="meet-date mb0">{this.formattedDate()}</p>
                     <p className="meet-time-location mt0">{this.formattedTime()} | {this.props.location}</p>
-                    <a className="meet-github" href={this.props.githubLink}>find on github</a>
+                    <a className="meet-github bold" href={this.props.githubLink}>
+                        <img srcSet={Github} className="vert-align-middle" />
+                        find on github
+                    </a>
                 </div>
 
                 <div className="meet-text">

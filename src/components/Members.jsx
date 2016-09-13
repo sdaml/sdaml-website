@@ -14,9 +14,9 @@ class Members extends Component {
                 title: 'Admin'
             }}>
                 {members.map(function(member) {
-                    return <div key={member} className="member">
-                        <a className="member-link" href="#">
-                            <h3 key={member} className="f3">{member}</h3>
+                    return <div key={member.name} className="member">
+                        <a className="member-link" href={member.link}>
+                            <h3 key={member} className="f3">{member.name}</h3>
                         </a>
                     </div>;
                 })}

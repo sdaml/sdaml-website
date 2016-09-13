@@ -68,17 +68,12 @@ p {
     color: $text-dark;
 }
 
-a {
+a,
+a:visited {
     transition: $s-animation;
     text-decoration: none;
 
-    color: $accent-colour;
-}
-
-a:visited {
-    text-decoration: underline;
-
-    color: $red;
+    color: $text-dark;
 }
 
 a:hover {
