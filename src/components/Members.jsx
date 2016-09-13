@@ -11,7 +11,7 @@ class Members extends Component {
     render() {
         return (
             <Section {...{
-                title: 'Admin'
+                title: 'Members'
             }}>
                 {members.map(function(member) {
                     return <div key={member.name} className="member">
