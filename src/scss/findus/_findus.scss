@@ -1,0 +1,29 @@
+.find-link {
+    padding-top: 1.875rem;
+    &:first-of-type {
+        padding-top: 0;
+    }
+}
+
+.find-link:hover {
+    > .find-name {
+        text-decoration: underline;
+    }
+}
+
+.find-icon {
+    display: inline-block;
+
+    max-width: 3rem;
+    height: 3rem;
+
+    vertical-align: middle;
+}
+
+.find-name {
+    font-size: 1.4rem;
+
+    padding-left: 3.75rem;
+
+    color: $text-dark;
+}

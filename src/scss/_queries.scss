@@ -62,6 +62,11 @@
             @content;
         }
     }
+    @else if $point == not-large {
+        @media screen and (max-width: 64em) {
+            @content;
+        }
+    }
     @else if $point == exlarge {
         @media screen and (min-width: 100em) {
             @content;

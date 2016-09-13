@@ -1,0 +1,21 @@
+$who-border: solid 4px $text-dark;
+$who-border-padding: 2rem;
+
+.who-block {
+    @include break(not-small) {
+        float: left;
+
+        max-width: calc(50% - #{$who-border-padding} - 4rem);
+
+        &:first-of-type {
+            margin-right: 4rem;
+            border-left: $who-border;
+            padding-left: $who-border-padding;
+        }
+    }
+
+    @include break(small) {
+        border-left: $who-border;
+        padding-left: $who-border-padding;
+    }
+}

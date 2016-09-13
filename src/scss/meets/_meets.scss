@@ -24,10 +24,10 @@
     font-size: 16px;
 }
 
-// 1 Important to override gridlex no gutter styles
 .meet-info {
     @include break(not-small) {
         text-align: right;
-        padding-right: 4rem !important; // 1
+        padding-right: 4rem;
+        min-width: 14rem;
     }
 }

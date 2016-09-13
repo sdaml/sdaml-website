@@ -19,7 +19,7 @@ class Meet extends Component {
         return (
             <div className="meet grid-noGutter">
 
-                <div className="col-4_xs-12 meet-info">
+                <div className="meet-info">
                     <h2 className="meet-title bold">{this.props.title}</h2>
                     <h2 className="meet-author regular mb0">by {this.props.author}</h2>
 
@@ -28,8 +28,8 @@ class Meet extends Component {
                     <a className="meet-github" href={this.props.githubLink}>find on github</a>
                 </div>
 
-                <div className="col-8_xs-12">
-                    <p className="meet-body measure mb0">{this.props.description}</p>
+                <div className="meet-text">
+                    <p className="measure mb0">{this.props.description}</p>
                 </div>
             </div>
         );
