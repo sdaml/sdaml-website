@@ -5,6 +5,9 @@ const members = [
     }, {
         name: 'Jake Runzer',
         link: 'https://twitter.com/jakerunzer'
+    }, {
+        name: 'Tyson Battistella',
+        link: 'https://twitter.com/tbtstl'
     }
 ];
 
