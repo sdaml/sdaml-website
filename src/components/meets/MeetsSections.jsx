@@ -4,7 +4,7 @@ import MeetsList from './MeetsList.jsx';
 
 import meets from '../../js/data/meets.js';
 
-const upcomingMeets = function() {
+const upcomingMeets = () => {
     const now = new Date();
     return {
         title: 'Upcoming',
@@ -14,7 +14,7 @@ const upcomingMeets = function() {
     };
 };
 
-const pastMeets = function() {
+const pastMeets = () => {
     const now = new Date();
     return {
         title: 'Past',

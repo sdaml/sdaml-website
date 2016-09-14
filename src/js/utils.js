@@ -5,3 +5,7 @@ export const capitalize = function(s) {
 export const toClass = function(title) {
     return title.toLowerCase().replace(' ', '-');
 };
+
+export const randomIndex = (arr) => {
+    return Math.floor(Math.random() * arr.length);
+};
