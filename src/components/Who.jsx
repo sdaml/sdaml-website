@@ -17,7 +17,7 @@ class Feature extends Component {
                     <p className="small-measure">
                         {
                             "A community of students and software enthusiasts interested \
-                            in using the latest technogloy and techniques to build amazing things."
+                            in using the latest technology and techniques to build innovative things."
                         }
                     </p>
                 </div>
