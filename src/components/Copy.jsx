@@ -14,8 +14,8 @@ class Copy extends Component {
         return (
             <div className="copy gutter-small grid-centered-noGutter">
                 <div className="col-10_lg-8_md-10_sm-10_xs-12 grid-noGutter center-vertical">
-                    <FindUs />
                     <Who />
+                    <FindUs />
 
                     <MeetsSections />
 

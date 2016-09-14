@@ -11,13 +11,15 @@ class Members extends Component {
     render() {
         return (
             <Section {...{
-                title: 'Members'
+                title: 'Members',
+                noGrid: true
             }}>
                 {members.map(function(member) {
                     return <div key={member.name} className="member">
-                        <a className="member-link" href={member.link}>
-                            <h3 key={member} className="f3">{member.name}</h3>
+                        <a className="member-link f3 bold" href={member.link}>
+                            {member.name}
                         </a>
+                        <div className="member-sep"></div>
                     </div>;
                 })}
             </Section>
