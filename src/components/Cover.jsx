@@ -28,7 +28,7 @@ class Cover extends Component {
                 commentIndex: newCommentIndex,
                 comments: allComments[newCommentIndex]
             });
-        }, 4000);
+        }, 3000);
     }
 
     render() {
