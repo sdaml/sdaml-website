@@ -8,6 +8,12 @@ const members = [
     }, {
         name: 'Tyson Battistella',
         link: 'https://twitter.com/tbtstl'
+    }, {
+        name: 'Zev Isert',
+        link: 'https://twitter.com/RevyZevy'
+    }, {
+        name: 'Erik Reppel',
+        link: 'https://twitter.com/erikreppel'
     }
 ];
 
