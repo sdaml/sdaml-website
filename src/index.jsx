@@ -9,7 +9,7 @@ import Styles from './scss/styles.scss';
 // Pages
 import App from './components/App.jsx';
 
-ga.initialize('UA-81828512-1');
+ga.initialize('UA-84210031-1');
 
 function logPageView() {
     ga.pageview(window.location.pathname);
