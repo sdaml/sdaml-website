@@ -9,7 +9,10 @@ const upcomingMeets = () => {
     return {
         title: 'Upcoming',
         meets: meets.filter(function(meet) {
-            return meet.dateStart.isAfter(now);
+            return meet.dateEnd.isAfter(now);
+        }).map(function(meet) {
+            meet.type = 'upcoming';
+            return meet;
         })
     };
 };
@@ -19,7 +22,10 @@ const pastMeets = () => {
     return {
         title: 'Past',
         meets: meets.filter(function(meet) {
-            return meet.dateStart.isBefore(now);
+            return meet.dateEnd.isBefore(now);
+        }).map(function(meet) {
+            meet.type = 'past';
+            return meet;
         })
     };
 };
@@ -29,11 +35,25 @@ class MeetsSections extends Component {
         super(props);
     }
 
+    renderUpcoming() {
+        const upcoming = upcomingMeets();
+        if (upcoming.meets.length) {
+            return <MeetsList {...upcomingMeets()} />;
+        }
+    }
+
+    renderPast() {
+        const past = pastMeets();
+        if (past.meets.length) {
+            return <MeetsList {...past()} />;
+        }
+    }
+
     render() {
         return (
             <div className="meets-sections col-12 grid-noGutter">
-                <MeetsList {...upcomingMeets()} />
-                <MeetsList {...pastMeets()} />
+                {this.renderUpcoming()}
+                {this.renderPast()}
             </div>
         );
     }
