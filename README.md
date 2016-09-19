@@ -21,4 +21,4 @@ http://uvic-software.surge.sh
     + Styles in `scss/`
     + Assets and icons in `assets/`
     + Images in `images/`
-- Public file in `public/`
+- Public files in `public/`
