@@ -38,14 +38,14 @@ class MeetsSections extends Component {
     renderUpcoming() {
         const upcoming = upcomingMeets();
         if (upcoming.meets.length) {
-            return <MeetsList {...upcomingMeets()} />;
+            return <MeetsList {...upcoming} />;
         }
     }
 
     renderPast() {
         const past = pastMeets();
         if (past.meets.length) {
-            return <MeetsList {...past()} />;
+            return <MeetsList {...past} />;
         }
     }
 
