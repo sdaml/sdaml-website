@@ -2,13 +2,21 @@ import moment from 'moment';
 
 const meets = [
     {
-        title: 'Club Days',
+        title: '⭐️ Introduction',
         author: null,
-        location: 'SUB',
-        dateStart: moment('2016-09-16 10:00:00'),
-        dateEnd: moment('2016-09-17 16:00:00'),
+        location: 'TBD',
+        dateStart: moment('2017-02-01 18:30:00'),
+        dateEnd: moment('2017-02-01 20:00:00'),
+        githubLine: null,
+        description: 'Meet and greet introduction. Come and find out what technologies we will be discussing and learning this semester'
+    }, {
+        title: '🤖 Slack bot',
+        author: 'Jake',
+        location: 'TBD',
+        dateStart: moment('2017-02-08 18:30:00'),
+        dateEnd: moment('2017-02-08 20:00:00'),
         githubLink: null,
-        description: 'Come find our booth at UVic club days in the SUB 🚀'
+        description: 'The first thing we will be building together is a Slack bot! A better description of what the bot does'
     }
 ];
 

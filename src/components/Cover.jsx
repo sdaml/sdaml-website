@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 /*
  * uvic
- * software
- * club
+ * software development &
+ * machine learning
 */
 
 import allComments from '../js/data/comments.js';
@@ -39,8 +39,7 @@ class Cover extends Component {
                         {this.commentIndex}
                         <span className="mono title-comment">{this.state.comments ? this.state.comments[0] : ''}</span> <br/>
                         <span className="mono title-comment">{this.state.comments ? this.state.comments[1] : ''}</span> uvic <br/>
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[2] : ''}</span> software <br/>
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[3] : ''}</span> club <br/>
+                        <span className="mono title-comment">{this.state.comments ? this.state.comments[2] : ''}</span> sd&ml <br/>
                         <span className="mono title-comment">{this.state.comments ? this.state.comments[4] : ''}</span> <br/>
                     </h1>
                 </div>

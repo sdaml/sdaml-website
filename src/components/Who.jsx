@@ -12,21 +12,20 @@ class Feature extends Component {
             <Section {...{
                 title: 'Who We Are'
             }}>
-
-                <div className="who-block">
-                    <p className="small-measure">
+                <div className='who-block'>
+                    <p className='small-measure'>
                         {
-                            "A community of students and software enthusiasts interested \
-                            in using the latest technology and techniques to build innovative things."
+                            'A community of students and software enthusiasts interested \
+                            in using the latest technology and techniques to build innovative things.'
                         }
                     </p>
                 </div>
 
-                <div className="who-block">
-                    <p className="small-measure">
+                <div className='who-block'>
+                    <p className='small-measure'>
                         {
-                            "We get together every week to listen to one of our own \
-                            share about a topic they are passionate about. Newcomers are welcome."
+                            'We get together every week to listen to one of our own \
+                            share about a topic they are passionate about. Newcomers are welcome.'
                         }
                     </p>
                 </div>
