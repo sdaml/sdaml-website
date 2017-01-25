@@ -22,3 +22,13 @@ http://uvic-software.surge.sh
     + Assets and icons in `assets/`
     + Images in `images/`
 - Public files in `public/`
+
+### Adding your name to **Members**
+
+So you are now apart of SD&ML and want to get your name on the website.
+
+1. Edit the [`members.js`](https://github.com/sdaml/sdaml-website/blob/master/src/js/data/members.js) file adding your name and Twitter link.
+2. Run the development steps and make sure everything is 👌.
+3. Create a pull request for [the repo](https://github.com/sdaml/sdaml-website).
+
+_Thats all!_
