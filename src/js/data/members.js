@@ -13,7 +13,7 @@ const members = [
         link: 'https://twitter.com/RevyZevy'
     }, {
         name: 'Erik Reppel',
-        link: 'https://twitter.com/erikreppel'
+        link: 'https://twitter.com/programmer'
     }
 ];
 
