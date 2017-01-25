@@ -10,7 +10,7 @@
         "postbuild": "npm run copy",
         "copy": "cp -r public/* build",
         "clean": "rimraf build",
-        "deploy": "npm run build; surge build/ uvic-software.surge.sh"
+        "deploy": "npm run build; surge build/ https://uvic-sdaml.surge.sh"
     },
     "author": [
         "Jake Runzer <jakerunzer@gmail.com> (https://jakerunzer.xyz)"
