@@ -1,14 +1,15 @@
 #!/bin/sh
 
+# Exit on error
 set -e
 
-echo "Pulling..."
+echo "Pulling... ⬇️"
 git pull
 
-echo "Installing dependencies..."
+echo "Installing dependencies... 📦"
 npm install
 
-echo "Building..."
+echo "Building... 👷"
 npm run build
 
 echo "Done. 🚀"
