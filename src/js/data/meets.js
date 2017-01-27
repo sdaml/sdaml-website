@@ -16,7 +16,7 @@ const meets = [
         dateStart: moment('2017-02-08 18:00:00'),
         dateEnd: moment('2017-02-08 19:00:00'),
         githubLink: null,
-        description: 'The first thing we will be building together is a basic Slack bot. Using NodeJS, ES6, and the Slack APIs. We will also learn how to host it on Heroku.'
+        description: 'The first thing we will be building together is a basic Slack bot, using NodeJS, ES6, and the Slack APIs. We will also learn how to host it on Heroku.'
     }, {
         title: '🎤 NLP Basics',
         author: 'Jair',
@@ -32,7 +32,7 @@ const meets = [
         dateStart: moment('2017-02-22 18:00:00'),
         dateEnd: moment('2017-02-22 19:00:00'),
         githubLink: null,
-        description: 'Using our NLP knowledge from last week, we will and natural language processing to our Slack bot to make it even more awesome.'
+        description: 'Using our NLP knowledge from last week, we will add natural language processing to our Slack bot to make it even more awesome.'
     }, {
         title: '🤔 Functional Paradigms',
         author: 'Jake',
