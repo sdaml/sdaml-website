@@ -37,24 +37,24 @@ const meets = [
         title: '🤔 Functional Paradigms',
         author: 'Jake',
         location: 'TBD',
-        dateStart: moment('2017-02-22 18:00:00'),
-        dateEnd: moment('2017-02-22 19:00:00'),
+        dateStart: moment('2017-03-01 18:00:00'),
+        dateEnd: moment('2017-03-01 19:00:00'),
         githubLink: null,
         description: 'What is functional programming and how does it compare to OOP? These are the questions that will be answered this week. We will be using Javascript and Python to apply functional paradigms to common problems.'
     }, {
         title: '✨ Kickstart your Portfolio',
         author: 'Team',
         location: 'TBD',
-        dateStart: moment('2017-02-22 18:00:00'),
-        dateEnd: moment('2017-02-22 19:00:00'),
+        dateStart: moment('2017-03-08 18:00:00'),
+        dateEnd: moment('2017-03-08 19:00:00'),
         githubLink: null,
         description: 'Project week where you can work on your portfolio or a side project with the sd&ml members around to help.'
     }, {
         title: '🚀 Deployment Checklist',
         author: 'Tyson',
         location: 'TBD',
-        dateStart: moment('2017-02-22 18:00:00'),
-        dateEnd: moment('2017-02-22 19:00:00'),
+        dateStart: moment('2017-03-15 18:00:00'),
+        dateEnd: moment('2017-03-15 19:00:00'),
         githubLink: null,
         description: 'Learn what it takes to deploy your checklist to production. What is git flow, CI, Nginx, SSL.'
     }
