@@ -18,7 +18,7 @@ const meets = [
         githubLink: null,
         description: 'The first thing we will be building together is a basic Slack bot. Using NodeJS, ES6, and the Slack APIs. We will also learn how to host it on Heroku.'
     }, {
-        title: '🙊 NLP Basics',
+        title: '🎤 NLP Basics',
         author: 'Jair',
         location: 'TBD',
         dateStart: moment('2017-02-15 18:00:00'),
