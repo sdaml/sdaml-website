@@ -79,6 +79,10 @@
     max-width: 26rem;
 }
 
+.su {
+    @include smart-underline();
+}
+
 // WHITE SPACE
 
 .gutter-small {

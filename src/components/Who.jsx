@@ -13,7 +13,7 @@ class Feature extends Component {
                 title: 'Who We Are'
             }}>
                 <div className='who-block'>
-                    <p className='small-measure'>
+                    <p className='measure f4 mt0'>
                         {
                             'A community of students and software enthusiasts interested \
                             in using the latest technology and techniques to build innovative things.'
@@ -22,7 +22,7 @@ class Feature extends Component {
                 </div>
 
                 <div className='who-block'>
-                    <p className='small-measure'>
+                    <p className='measure f4 mt0'>
                         {
                             'We get together every week to listen to one of our own \
                             share about a topic they are passionate about. Newcomers are welcome.'

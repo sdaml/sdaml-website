@@ -5,6 +5,7 @@
 @import './css/tachyons.css';
 @import 'fonts';
 @import 'variables';
+@import 'mixins';
 @import 'gridlex';
 @import 'utils';
 
@@ -61,7 +62,7 @@ h2 {
     }
 
     span {
-        border-bottom: solid 2px $main-colour;
+        // border-bottom: solid 2px $main-colour;
     }
 }
 
