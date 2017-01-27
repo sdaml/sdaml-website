@@ -55,7 +55,7 @@ class Meet extends Component {
                 </div>
 
                 <div className="meet-text">
-                    <p className="measure mb0">{this.props.description}</p>
+                    <p className="measure mb0 pt4-ns mt0">{this.props.description}</p>
                 </div>
             </div>
         );
