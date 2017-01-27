@@ -56,7 +56,7 @@ const meets = [
         dateStart: moment('2017-03-15 18:00:00'),
         dateEnd: moment('2017-03-15 19:00:00'),
         githubLink: null,
-        description: 'Learn what it takes to deploy your checklist to production. What is git flow, CI, Nginx, SSL.'
+        description: 'Learn what it takes to deploy your project to production. What is git flow, CI, Nginx, SSL.'
     }
 ];
 

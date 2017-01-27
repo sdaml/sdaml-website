@@ -7,15 +7,17 @@ import Facebook from '../assets/facebook_logo.svg';
 import Slack from '../assets/slack_logo.svg';
 import Twitter from '../assets/twitter_logo.svg';
 
+// {
+//     name: 'Slack',
+//     icon: Slack,
+//     href: '#'
+// }
+
 const findUsLinks = [
     {
         name: 'Facebook',
         icon: Facebook,
         href: 'https://www.facebook.com/groups/uvic.software'
-    }, {
-        name: 'Slack',
-        icon: Slack,
-        href: '#'
     }, {
         name: 'Twitter',
         icon: Twitter,
