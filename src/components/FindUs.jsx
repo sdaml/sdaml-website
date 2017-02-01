@@ -4,7 +4,7 @@ import Section from './Section.jsx';
 
 // Logos
 import Facebook from '../assets/facebook_logo.svg';
-import Slack from '../assets/slack_logo.svg';
+// import Slack from '../assets/slack_logo.svg';
 import Twitter from '../assets/twitter_logo.svg';
 
 // {

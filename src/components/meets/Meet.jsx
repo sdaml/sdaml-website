@@ -20,8 +20,14 @@ class Meet extends Component {
     }
 
     formattedTime() {
-        const timeStart = this.props.dateStart.format('h a');
-        const timeEnd = this.props.dateEnd.format('h a');
+        const startFormat = this.props.dateStart.minutes() > 0
+            ? 'h:mm a'
+            : 'h a';
+        const endFormat = this.props.dateEnd.minutes() > 0
+            ? 'h:mm a'
+            : 'h a';
+        const timeStart = this.props.dateStart.format(startFormat);
+        const timeEnd = this.props.dateEnd.format(endFormat);
         return timeStart + ' - ' + timeEnd;
     }
 
@@ -49,7 +55,8 @@ class Meet extends Component {
                     {this.renderAuthor()}
 
                     <p className="meet-date mb0">{this.formattedDate()}</p>
-                    <p className="meet-time-location mt0">{this.formattedTime()} | {this.props.location}</p>
+                    <p className="meet-time mv0">{this.formattedTime()}</p>
+                    <p className="meet-location mt0">{this.props.location}</p>
 
                     {this.renderGithub()}
                 </div>
