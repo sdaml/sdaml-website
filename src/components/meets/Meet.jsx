@@ -41,7 +41,7 @@ class Meet extends Component {
         if (this.props.githubLink) {
             return <a className="meet-github bold" href={this.props.githubLink}>
                 <img srcSet={Github} className="vert-align-middle" />
-                find on github
+                github
             </a>;
         }
     }
