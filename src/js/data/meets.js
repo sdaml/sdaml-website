@@ -37,8 +37,8 @@ const meets = [
         title: '🚀 Deployment Checklist',
         author: 'Tyson',
         location: 'SUB Upper Lounge',
-        dateStart: moment('2017-04-29 18:30:00'),
-        dateEnd: moment('2017-04-29 20:00:00'),
+        dateStart: moment('2017-03-29 18:30:00'),
+        dateEnd: moment('2017-03-29 20:00:00'),
         githubLink: null,
         description: 'Learn what it takes to deploy your project to production. What is git flow, CI, Nginx, SSL.'
     }
