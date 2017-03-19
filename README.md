@@ -1,7 +1,7 @@
 Website for UVic Software Club
 =======
 
-http://uvic-software.surge.sh
+[sdaml.club](https://sdaml.club/)
 
 ## Development
 
