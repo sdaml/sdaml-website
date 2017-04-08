@@ -9,15 +9,17 @@ const meets = [
         dateEnd: moment('2017-02-01 19:00:00'),
         githubLink: 'https://github.com/sdaml/introduction',
         description: 'Meet and greet introduction. Come and find out what technologies we will be discussing and learning this semester.'
-    }, {
+    },
+    {
         title: '🤖 Slack bot',
         author: 'Jake',
         location: 'SUB Upper Lounge',
         dateStart: moment('2017-02-22 18:30:00'),
         dateEnd: moment('2017-02-22 20:00:00'),
-        githubLink: 'https://github.com/sdaml/slack-bot',
+        githubLink: 'https://github.com/sdaml/sb',
         description: 'The first thing we will be building together is a basic Slack bot, using NodeJS, ES6, and the Slack APIs. We will also learn how to host it on Heroku.'
-    }, {
+    },
+    {
         title: '👩‍💻 Project week',
         author: null,
         location: 'SUB Upper Lounge',
@@ -25,7 +27,8 @@ const meets = [
         dateEnd: moment('2017-03-01 20:00:00'),
         githubLink: null,
         description: 'Come work on a side project in the company of the sd&ml team.'
-    }, {
+    },
+    {
         title: '🤔 AI Gameplaying',
         author: 'Zev',
         location: 'MAC 123',
@@ -33,14 +36,24 @@ const meets = [
         dateEnd: moment('2017-03-15 20:00:00'),
         githubLink: 'https://github.com/sdaml/ai-gameplaying',
         description: 'Zev will be taking us through some AI techniques for 2 player optimization games.'
-    }, {
+    },
+    {
         title: '🚀 Deployment Checklist',
         author: 'Tyson',
         location: 'SUB Upper Lounge',
         dateStart: moment('2017-03-29 18:30:00'),
         dateEnd: moment('2017-03-29 20:00:00'),
-        githubLink: null,
+        githubLink: 'https://github.com/sdaml/react-es6-webpack-boilerplate',
         description: 'Learn what it takes to deploy your project to production. What is git flow, CI, Nginx, SSL.'
+    },
+    {
+        title: '🤸‍ Go',
+        author: 'Erik',
+        location: 'SUB Upper Lounge',
+        dateStart: moment('2017-04-05 18:30:00'),
+        dateEnd: moment('2017-04-05 20:00:00'),
+        githubLink: 'https://github.com/erikreppel/go-tutorial',
+        description: 'Erik virtually gives us a rundown of the new(ish) language that is growing rapidly in the community.'
     }
     // {
     //     title: '⚡️ NLP + Slack',
