@@ -8,12 +8,14 @@ const upcomingMeets = () => {
     const now = new Date();
     return {
         title: 'Upcoming',
-        meets: meets.filter(function(meet) {
-            return meet.dateEnd.isAfter(now);
-        }).map(function(meet) {
-            meet.type = 'upcoming';
-            return meet;
-        })
+        meets: meets
+            .filter(function(meet) {
+                return meet.dateEnd.isAfter(now);
+            })
+            .map(function(meet) {
+                meet.type = 'upcoming';
+                return meet;
+            })
     };
 };
 
@@ -21,12 +23,14 @@ const pastMeets = () => {
     const now = new Date();
     return {
         title: 'Past',
-        meets: meets.filter(function(meet) {
-            return meet.dateEnd.isBefore(now);
-        }).map(function(meet) {
-            meet.type = 'past';
-            return meet;
-        })
+        meets: meets
+            .filter(function(meet) {
+                return meet.dateEnd.isBefore(now);
+            })
+            .map(function(meet) {
+                meet.type = 'past';
+                return meet;
+            })
     };
 };
 

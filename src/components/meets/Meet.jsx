@@ -12,7 +12,9 @@ class Meet extends Component {
         const dateEnd = this.props.dateEnd;
 
         if (dateEnd.isAfter(dateStart, 'month')) {
-            return dateStart.format('MMM Do') + ' - ' + dateEnd.format('MMM Do');
+            return dateStart.format('MMM Do') +
+                ' - ' +
+                dateEnd.format('MMM Do');
         } else if (dateEnd.isAfter(dateStart, 'day')) {
             return dateStart.format('MMM Do') + ' - ' + dateEnd.format('Do');
         }
@@ -23,9 +25,7 @@ class Meet extends Component {
         const startFormat = this.props.dateStart.minutes() > 0
             ? 'h:mm a'
             : 'h a';
-        const endFormat = this.props.dateEnd.minutes() > 0
-            ? 'h:mm a'
-            : 'h a';
+        const endFormat = this.props.dateEnd.minutes() > 0 ? 'h:mm a' : 'h a';
         const timeStart = this.props.dateStart.format(startFormat);
         const timeEnd = this.props.dateEnd.format(endFormat);
         return timeStart + ' - ' + timeEnd;
@@ -33,16 +33,22 @@ class Meet extends Component {
 
     renderAuthor() {
         if (this.props.author) {
-            return <h2 className="meet-author regular mb0">by {this.props.author}</h2>;
+            return (
+                <h2 className="meet-author regular mb0">
+                    by {this.props.author}
+                </h2>
+            );
         }
     }
 
     renderGithub() {
         if (this.props.githubLink) {
-            return <a className="meet-github bold" href={this.props.githubLink}>
-                <img srcSet={Github} className="vert-align-middle" />
-                github
-            </a>;
+            return (
+                <a className="meet-github bold" href={this.props.githubLink}>
+                    <img srcSet={Github} className="vert-align-middle" />
+                    github
+                </a>
+            );
         }
     }
 
@@ -62,7 +68,9 @@ class Meet extends Component {
                 </div>
 
                 <div className="meet-text">
-                    <p className="measure mb0 pt4-ns mt0">{this.props.description}</p>
+                    <p className="measure mb0 pt4-ns mt0">
+                        {this.props.description}
+                    </p>
                 </div>
             </div>
         );

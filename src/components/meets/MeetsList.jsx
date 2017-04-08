@@ -10,9 +10,11 @@ class MeetsList extends Component {
 
     render() {
         return (
-            <Section {...{
-                title: this.props.title + ' Meets'
-            }}>
+            <Section
+                {...{
+                    title: this.props.title + ' Meets'
+                }}
+            >
                 {this.props.meets.map(function(meet) {
                     return <Meet key={meet.title} {...meet} />;
                 })}

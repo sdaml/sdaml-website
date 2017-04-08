@@ -10,17 +10,24 @@ class Members extends Component {
 
     render() {
         return (
-            <Section {...{
-                title: 'Members',
-                noGrid: true
-            }}>
+            <Section
+                {...{
+                    title: 'Members',
+                    noGrid: true
+                }}
+            >
                 {members.map(function(member) {
-                    return <div key={member.name} className="member">
-                        <a className="member-link f3 bold" href={member.link}>
-                            {member.name}
-                        </a>
-                        <div className="member-sep"></div>
-                    </div>;
+                    return (
+                        <div key={member.name} className="member">
+                            <a
+                                className="member-link f3 bold"
+                                href={member.link}
+                            >
+                                {member.name}
+                            </a>
+                            <div className="member-sep" />
+                        </div>
+                    );
                 })}
             </Section>
         );

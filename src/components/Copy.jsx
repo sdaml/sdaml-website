@@ -13,10 +13,14 @@ class Copy extends Component {
     render() {
         return (
             <div className="copy gutter-small grid-centered-noGutter">
-                <div className="col-10_lg-8_md-10_sm-10_xs-12 grid-noGutter center-vertical">
+                <div
+                    className="col-10_lg-8_md-10_sm-10_xs-12 grid-noGutter center-vertical"
+                >
 
-                    <h1 className='tc w-100 f1-ns f2 mv5'>
-                        <span className='su bold'>Software Development & Machine Learning</span>
+                    <h1 className="tc w-100 f1-ns f2 mv5">
+                        <span className="su bold">
+                            Software Development & Machine Learning
+                        </span>
                     </h1>
 
                     <Who />

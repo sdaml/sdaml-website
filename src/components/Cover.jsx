@@ -21,14 +21,17 @@ class Cover extends Component {
     }
 
     componentDidMount() {
-        setInterval(() => {
-            const newCommentIndex = randomIndex(allComments);
+        setInterval(
+            () => {
+                const newCommentIndex = randomIndex(allComments);
 
-            this.setState({
-                commentIndex: newCommentIndex,
-                comments: allComments[newCommentIndex]
-            });
-        }, 3000);
+                this.setState({
+                    commentIndex: newCommentIndex,
+                    comments: allComments[newCommentIndex]
+                });
+            },
+            3000
+        );
     }
 
     render() {
@@ -37,10 +40,30 @@ class Cover extends Component {
                 <div className="col-10_lg-8_md-10_sm-10_xs-12 center-vertical">
                     <h1 className="title f-subheadline animated fadeInLeft">
                         {this.commentIndex}
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[0] : ''}</span> <br/>
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[1] : ''}</span> uvic <br/>
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[2] : ''}</span> sd&ml <br/>
-                        <span className="mono title-comment">{this.state.comments ? this.state.comments[4] : ''}</span> <br/>
+                        <span className="mono title-comment">
+                            {this.state.comments ? this.state.comments[0] : ''}
+                        </span>
+                        {' '}
+                        <br />
+                        <span className="mono title-comment">
+                            {this.state.comments ? this.state.comments[1] : ''}
+                        </span>
+                        {' '}
+                        uvic
+                        {' '}
+                        <br />
+                        <span className="mono title-comment">
+                            {this.state.comments ? this.state.comments[2] : ''}
+                        </span>
+                        {' '}
+                        sd&ml
+                        {' '}
+                        <br />
+                        <span className="mono title-comment">
+                            {this.state.comments ? this.state.comments[4] : ''}
+                        </span>
+                        {' '}
+                        <br />
                     </h1>
                 </div>
             </div>
