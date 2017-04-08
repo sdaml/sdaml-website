@@ -31,6 +31,7 @@ const pastMeets = () => {
                 meet.type = 'past';
                 return meet;
             })
+            .reverse()
     };
 };
 
